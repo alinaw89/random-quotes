@@ -1,3 +1,36 @@
 body {
-  background-color: #8ed892;
+  background: linear-gradient(to left, #8ED892, #14B6C4);
+  font-family: 'Quicksand', sans-serif;
+}
+
+.navbar{
+  height:100px;
+}
+
+.navbar a {
+  margin-top:50px;
+  font-weight:bold;
+  font-size:23px;
+}
+
+.content{
+  color:white;
+}
+
+.body_title{
+  margin-top:130px;
+}
+
+button{
+  color:black;
+}
+
+.quotes{
+  height: 100px;
+  width: 300px;
+  background-color: white;
+  color:black;
+  margin-left:230px;
+  margin-top:40px;
+  border-radius: 20px;
 }
