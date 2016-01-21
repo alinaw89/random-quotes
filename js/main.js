@@ -1,10 +1,20 @@
 $(document).ready(function() {
   $("button").click(function() {
-    $(".quotes").html("<p>you did it!</p>")
-  });
-});
+    $(".quotes").html(randomQuote(quotesArray));
 
-//1.have a message pop up if someone clicks on the button
-//2.have a message pop up in a box if someone clicks the button
-//3.how to set up an api with a free quotes source
-//4.redesign
+  });
+
+
+  var quotesArray = ["blah", "poo", "to be or not to be", "an eye for an eye makes the whole world blind"];
+
+  function randomQuote(quoteArray) {
+    for (var i = 0; i < quoteArray.length; i++) {
+      var j = Math.floor(Math.random() * (i));
+      var temp = quoteArray[i];
+      quoteArray[i] = quoteArray[j];
+      quoteArray[j] = temp;
+    }
+    return temp;
+  }
+
+});
