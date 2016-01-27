@@ -27,12 +27,18 @@
         <p>Press the button to see a random quote!</p>
         <button class="button_quote">Quote Me</button>
         <div class="quotes"></div>
+        <div class="author"></div>
+        <div class="tweet"></div>
+        <a class="tweet" href="https://twitter.com/intent/tweet" data-size="large" target="_blank">
+      <button type="button" class="btn btn-primary">Tweet</button>
+    </a>
+        <!-- <a href="https://twitter.com/share" class="twitter-share-button tweet"{count} data-text="' + randomQuote(quotes) + '" data-size="large"></a> -->
       </div>
     </div>
   </div>
 
 
-
+  <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
   <script src="http://code.jquery.com/jquery-2.1.4.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js" type="text/javascript" charset="utf-8"></script>
   <script src="js/main.js"></script>
