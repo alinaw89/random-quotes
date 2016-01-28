@@ -10,7 +10,7 @@ body {
 .navbar a {
   margin-top:50px;
   font-weight:bold;
-  font-size:23px;
+  font-size:30px;
 }
 
 .content{
@@ -29,10 +29,10 @@ button{
 
 .quotes{
   height: 100px;
-  width: 750px;
+  width: 770px;
   background-color: white;
   color:black;
-  margin-left:20px;
+  margin-left:7px;
   margin-top:40px;
   border-radius: 20px;
   font-size:16px;
