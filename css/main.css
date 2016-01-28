@@ -23,14 +23,26 @@ body {
 
 button{
   color:black;
+  border-radius: 10px;
+  background-color: white;
 }
 
 .quotes{
   height: 100px;
-  width: 500px;
+  width: 750px;
   background-color: white;
   color:black;
-  margin-left:130px;
+  margin-left:20px;
   margin-top:40px;
   border-radius: 20px;
+  font-size:16px;
+}
+
+.tweet{
+  margin-top:50px;
+}
+
+.author{
+  font-weight:bold;
+  font-size:20px;
 }

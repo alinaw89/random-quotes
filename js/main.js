@@ -31,7 +31,7 @@ $(document).ready(function() {
   }
 
 
-  $('button').click(function() {
+  $('.button_quote').click(function() {
     $.getJSON(url, getQuote, 'jsonp');
   });
 });
